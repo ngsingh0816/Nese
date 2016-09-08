@@ -1,0 +1,1279 @@
+TNese
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Developer/Projects/Nese/build/Debug/Nese.app/Contents/Info.plist Nese-Info.plist
+cCopyStringsFile /Developer/Projects/Nese/build/Debug/Nese.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Developer/Projects/Nese/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-cloqgxswjtqccjdtnquvdphfwfrt/Nese_Prefix.pch.pth Nese_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-fcqvychcghknfmbeqbhssyjytnhp/Nese_Prefix.pch.pth Nese_Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/main.o /Developer/Projects/Nese/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/GLView.o /Developer/Projects/Nese/GLView.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Controller.o /Developer/Projects/Nese/Controller.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Opcodes.o /Developer/Projects/Nese/Opcodes.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/CPU.o /Developer/Projects/Nese/CPU.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Pad.o /Developer/Projects/Nese/Pad.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/PPU.o /Developer/Projects/Nese/PPU.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/addr.o /Developer/Projects/Nese/addr.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/TableWindow.o /Developer/Projects/Nese/TableWindow.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Rom.o /Developer/Projects/Nese/Rom.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Mappers.o /Developer/Projects/Nese/Mappers.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/APU.o /Developer/Projects/Nese/APU.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/GLString.o /Developer/Projects/Nese/GLString.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/ALSound.o /Developer/Projects/Nese/ALSound.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Developer/Projects/Nese/ALSound.h
+c000000004D373F150000000000000274
+t1295466261
+s628
+i<Cocoa/Cocoa.h>
+i<OpenAL/al.h>
+i<OpenAL/alc.h>
+i"types.h"
+
+N/Developer/Projects/Nese/ALSound.mm
+c000000004EEA71520000000000002F72
+t1323987282
+s12146
+i"ALSound.h"
+i"APU.h"
+
+N/Developer/Projects/Nese/APU.h
+c000000004D373D3F00000000000004F8
+t1295465791
+s1272
+i<Cocoa/Cocoa.h>
+i"types.h"
+i"CPU.h"
+
+N/Developer/Projects/Nese/APU.mm
+c000000004D4DBB3C0000000000001B30
+t1296939836
+s6960
+i"APU.h"
+i"Controller.h"
+
+N/Developer/Projects/Nese/CPU.h
+c000000004D4EE0EE000000000000060B
+t1297015022
+s1547
+i<Cocoa/Cocoa.h>
+i"types.h"
+i"Opcodes.h"
+i"addr.h"
+i<vector>
+i"xEmitter.h"
+
+N/Developer/Projects/Nese/CPU.mm
+c0000000050035A840000000000002069
+t1342397060
+s8297
+i"CPU.h"
+i"PPU.h"
+i"Controller.h"
+i"Mappers.h"
+i"APU.h"
+
+N/Developer/Projects/Nese/Controller.h
+c000000004D34906F0000000000000D00
+t1295290479
+s3328
+i<Cocoa/Cocoa.h>
+i"TableWindow.h"
+i"GLView.h"
+i"Pad.h"
+i"ALSound.h"
+i"Rom.h"
+i"CPU.h"
+i"PPU.h"
+i"APU.h"
+i"Opcodes.h"
+
+N/Developer/Projects/Nese/Controller.mm
+c000000004E6AAF460000000000004B3F
+t1315614534
+s19263
+i"Controller.h"
+i<OpenGL/OpenGL.h>
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+
+N/Developer/Projects/Nese/CoreAudio.framework/CoreAudio
+c000000004E96314600000000001195D0
+t1318465862
+s1152464
+
+N/Developer/Projects/Nese/English.lproj/InfoPlist.strings
+c000000004B81ACBD000000000000002D
+t1266789565
+s45
+
+N/Developer/Projects/Nese/English.lproj/MainMenu.xib
+c000000004D34918D0000000000039E7C
+t1295290765
+s237180
+
+N/Developer/Projects/Nese/GLString.h
+c000000004C06BCE30000000000001AC3
+t1275509987
+s6851
+i<Cocoa/Cocoa.h>
+i<OpenGL/gl.h>
+i<OpenGL/glext.h>
+i<OpenGL/OpenGL.h>
+i<OpenGL/CGLContext.h>
+
+N/Developer/Projects/Nese/GLString.m
+c000000004B3FDDCB00000000000034EE
+t1262476747
+s13550
+i"GLString.h"
+
+N/Developer/Projects/Nese/GLView.h
+c000000004C0AA78A00000000000004B7
+t1275766666
+s1207
+i<Cocoa/Cocoa.h>
+
+N/Developer/Projects/Nese/GLView.mm
+c000000004CCA27F80000000000001E01
+t1288316920
+s7681
+i"GLView.h"
+i<OpenGL/OpenGL.h>
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+i"CPU.h"
+i"PPU.h"
+i"Pad.h"
+i"Controller.h"
+
+N/Developer/Projects/Nese/Mappers.h
+c000000004BEDFC900000000000000169
+t1273887888
+s361
+i<Cocoa/Cocoa.h>
+i"types.h"
+i<vector>
+
+N/Developer/Projects/Nese/Mappers.mm
+c000000004BEF70310000000000001129
+t1273983025
+s4393
+i"Mappers.h"
+i"Rom.h"
+i"CPU.h"
+i"PPU.h"
+
+N/Developer/Projects/Nese/Nese_Prefix.pch
+c000000004B81ACBD000000000000008B
+t1266789565
+s139
+i<Cocoa/Cocoa.h>
+
+N/Developer/Projects/Nese/OpcFunc.h
+c000000004BEEBBFE0000000000002C82
+t1273936894
+s11394
+i<Cocoa/Cocoa.h>
+i"Opcodes.h"
+i"CPU.h"
+i"Mappers.h"
+i"Rom.h"
+
+N/Developer/Projects/Nese/Opcodes.h
+c0000000050035B00000000000000235A
+t1342397184
+s9050
+i<Cocoa/Cocoa.h>
+i"types.h"
+
+N/Developer/Projects/Nese/Opcodes.mm
+c0000000050035BB7000000000000CF7C
+t1342397367
+s53116
+i"Opcodes.h"
+i"OpcFunc.h"
+i"CPU.h"
+i"Controller.h"
+
+N/Developer/Projects/Nese/PPU.h
+c000000004D34927A0000000000000523
+t1295291002
+s1315
+i<Cocoa/Cocoa.h>
+i"types.h"
+
+N/Developer/Projects/Nese/PPU.mm
+c000000004D3745D70000000000003E7A
+t1295467991
+s15994
+i"PPU.h"
+i"CPU.h"
+i"Controller.h"
+i"GLString.h"
+i"APU.h"
+
+N/Developer/Projects/Nese/Pad.h
+c000000004C0AA78A000000000000026D
+t1275766666
+s621
+i<Cocoa/Cocoa.h>
+
+N/Developer/Projects/Nese/Pad.mm
+c000000004D37449C0000000000000BE7
+t1295467676
+s3047
+i"Pad.h"
+i"CPU.h"
+
+N/Developer/Projects/Nese/Rom.h
+c000000004BE62E160000000000000123
+t1273376278
+s291
+i<Cocoa/Cocoa.h>
+i"types.h"
+i<vector>
+
+N/Developer/Projects/Nese/Rom.mm
+c000000004BE7724300000000000007BD
+t1273459267
+s1981
+i"Rom.h"
+i"CPU.h"
+i"PPU.h"
+i"Mappers.h"
+
+N/Developer/Projects/Nese/TableWindow.h
+c000000004BC66D6F00000000000004C6
+t1271295343
+s1222
+i<Cocoa/Cocoa.h>
+
+N/Developer/Projects/Nese/TableWindow.mm
+c000000004BC66D670000000000000B09
+t1271295335
+s2825
+i"TableWindow.h"
+
+N/Developer/Projects/Nese/addr.h
+c000000004BC4F2AC000000000000035D
+t1271198380
+s861
+i<Cocoa/Cocoa.h>
+i"types.h"
+
+N/Developer/Projects/Nese/addr.mm
+c000000004BDB998B00000000000009F8
+t1272682891
+s2552
+i"addr.h"
+i"CPU.h"
+
+N/Developer/Projects/Nese/build/Debug/Nese.app
+t1341262628
+s102
+
+N/Developer/Projects/Nese/build/Debug/Nese.app/Contents/Info.plist
+t1341262623
+s1268
+
+N/Developer/Projects/Nese/build/Debug/Nese.app/Contents/MacOS/Nese
+t1341262628
+s263148
+
+N/Developer/Projects/Nese/build/Debug/Nese.app/Contents/PkgInfo
+t1341262623
+s8
+
+N/Developer/Projects/Nese/build/Debug/Nese.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1315614466
+s92
+
+N/Developer/Projects/Nese/build/Debug/Nese.app/Contents/Resources/English.lproj/MainMenu.nib
+t1315614466
+s36308
+
+N/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/ALSound.o
+t1342397184
+s30980
+
+N/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/APU.o
+t1342397184
+s13308
+
+N/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/CPU.o
+t1342397184
+s25128
+
+N/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Controller.o
+t1342397184
+s92796
+
+N/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/GLString.o
+t1341262626
+s80576
+
+N/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/GLView.o
+t1342397184
+s40184
+
+N/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Mappers.o
+t1342397184
+s53300
+
+N/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Nese.LinkFileList
+c000000004E6AAF0200000000000004E7
+t1315614466
+s1255
+
+N/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Opcodes.o
+t2
+s0
+
+N/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/PPU.o
+t1342397184
+s66056
+
+N/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Pad.o
+t1342397184
+s28140
+
+N/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Rom.o
+t1342397184
+s47888
+
+N/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/TableWindow.o
+t1341262626
+s35552
+
+N/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/addr.o
+t1342397184
+s9104
+
+N/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/main.o
+t1341262626
+s2144
+
+N/Developer/Projects/Nese/main.m
+c000000004B81ACBD00000000000000F3
+t1266789565
+s243
+i<Cocoa/Cocoa.h>
+
+N/Developer/Projects/Nese/types.h
+c000000004D4DD70F000000000000010F
+t1296946959
+s271
+
+N/Developer/Projects/Nese/xEmitter.h
+c000000004D4F01880000000000000451
+t1297023368
+s1105
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i"types.h"
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004DF6553500000000000000EE
+t1307989301
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+c000000004C23B11200000000000064F9
+t1277407506
+s25849
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+c000000004C23B1120000000000001F41
+t1277407506
+s8001
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004D5B2E27000000000000DA50
+t1297821223
+s55888
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/CGLContext.h
+c000000004BD2501F000000000000022D
+t1272074271
+s557
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGL.h
+c000000004BD2501F0000000000001659
+t1272074271
+s5721
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h
+c000000004BD2501F0000000000025B59
+t1272074271
+s154457
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glext.h
+c000000004BD2501F0000000000042ACF
+t1272074271
+s273103
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h
+c000000004BD2501F0000000000003F84
+t1272074271
+s16260
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004D5B2E28000000000000DB28
+t1297821224
+s56104
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004BBD2CE90000000000001731
+t1270689001
+s5937
+
+N/Developer/SDKs/MacOSX10.7.sdk
+c000000004E9A02B500000000000000EE
+t1318716085
+s238
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+c000000004DF6A3FE00000000000064F9
+t1308009470
+s25849
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+c000000004DF6A3FE0000000000001F41
+t1308009470
+s8001
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004E7AD703000000000000A4E4
+t1316673283
+s42212
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/OpenGL.framework/Headers/CGLContext.h
+c000000004E02764F000000000000022D
+t1308784207
+s557
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGL.h
+c000000004E02764F0000000000001E74
+t1308784207
+s7796
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h
+c000000004E02764F0000000000025633
+t1308784207
+s153139
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glext.h
+c000000004E02764F00000000000433EC
+t1308784207
+s275436
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h
+c000000004E02764F0000000000003F84
+t1308784207
+s16260
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004E7AD704000000000000A46C
+t1316673284
+s42092
+
+N/Developer/SDKs/MacOSX10.7.sdk/usr/include/stdio.h
+c000000004E05497C0000000000004763
+t1308969340
+s18275
+
+N/Developer/SDKs/MacOSX10.7.sdk/usr/include/stdlib.h
+c000000004E05497C00000000000030A7
+t1308969340
+s12455
+
+N/Developer/SDKs/MacOSX10.7.sdk/usr/include/string.h
+c000000004E05497C0000000000001A3A
+t1308969340
+s6714
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004E27699A0000000000006560
+t1311205786
+s25952
+
+N/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-auroaabvbugmqbbptkazelrdrlkd/Nese_Prefix.pch.gch
+t1315614470
+s45379504
+
+N/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-bgokylaswuuzkaeeegjdasmicbhd/Nese_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-bopdxspejdxewefdnftupifuboli/Nese_Prefix.pch.pth
+t1323827859
+s13952108
+
+N/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-cloqgxswjtqccjdtnquvdphfwfrt/Nese_Prefix.pch.pth
+t1341262624
+s11047728
+
+N/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-dsyahfczwdyxbyawrgpxhvdyjubg/Nese_Prefix.pch.gch
+t1315614583
+s41328656
+
+N/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-efjvpwvzjamirahfyehmwlwziwmr/Nese_Prefix.pch.gch
+t1315614584
+s45408176
+
+N/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-fcqvychcghknfmbeqbhssyjytnhp/Nese_Prefix.pch.pth
+t1341262625
+s13952084
+
+N/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-fcxsgqwggbpiggebemztsificzxc/Nese_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-fstxogjevgferoccftwqnsafilhf/Nese_Prefix.pch.gch
+t1315614469
+s41304080
+
+N/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-gtnftrwzdfitjwcypomfwlgyxdck/Nese_Prefix.pch.pth
+t1323827859
+s11047784
+
+NNese-Info.plist
+c000000004B81ACBD00000000000003EA
+t1266789565
+s1002
+
+CBuild AST from /Developer/Projects/Nese/ALSound.mm
+r0
+
+CBuild AST from /Developer/Projects/Nese/APU.mm
+r0
+
+CBuild AST from /Developer/Projects/Nese/CPU.mm
+r0
+
+CBuild AST from /Developer/Projects/Nese/Controller.mm
+r0
+
+CBuild AST from /Developer/Projects/Nese/GLString.m
+r0
+
+CBuild AST from /Developer/Projects/Nese/GLView.mm
+r0
+
+CBuild AST from /Developer/Projects/Nese/Mappers.mm
+r0
+
+CBuild AST from /Developer/Projects/Nese/Opcodes.mm
+r0
+
+CBuild AST from /Developer/Projects/Nese/PPU.mm
+r0
+
+CBuild AST from /Developer/Projects/Nese/Pad.mm
+r0
+
+CBuild AST from /Developer/Projects/Nese/Rom.mm
+r0
+
+CBuild AST from /Developer/Projects/Nese/TableWindow.mm
+r0
+
+CBuild AST from /Developer/Projects/Nese/addr.mm
+r0
+
+CBuild AST from /Developer/Projects/Nese/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies700b864293b3b541^27d9864293b3b541^---0#1#0#--18"Check dependencies36"1DD6DA17-BF24-45D1-8874-45A306FE0493-
+
+CCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/ALSound.o /Developer/Projects/Nese/ALSound.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s364089984.351542
+e364089984.475888
+r1
+xCompileC
+xbuild/Nese.build/Debug/Nese.build/Objects-normal/x86_64/ALSound.o
+x/Developer/Projects/Nese/ALSound.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Developer/Projects/Nese/ALSound.mm:180:7: warning: unused variable 'triangleLength' [-Wunused-variable,12]
+o         bool triangleLength = (!((triangle.control >> 7) & 0x1) && ((controlSound >> 2) & 0x1));
+o              ^
+o/Developer/Projects/Nese/ALSound.mm:179:7: warning: unused variable 'square2Length' [-Wunused-variable,12]
+o         bool square2Length = (!((square2.control >> 5) & 0x1) && ((controlSound >> 1) & 0x1));
+o              ^
+o2 warnings generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Compile /Developer/Projects/Nese/ALSound.mmf1495b8092b3b541^4f037a8092b3b541^-463"/Developer/Projects/Nese/ALSound.mm:180:7: warning: unused variable 'triangleLength' [-Wunused-variable,12]         bool triangleLength = (!((triangle.control >> 7) & 0x1) && ((controlSound >> 2) & 0x1));              ^/Developer/Projects/Nese/ALSound.mm:179:7: warning: unused variable 'square2Length' [-Wunused-variable,12]         bool square2Length = (!((square2.control >> 5) & 0x1) && ((controlSound >> 1) & 0x1));              ^2 warnings generated.2(21%IDEActivityLogMessage2@32"Unused variable 'triangleLength'-364089984#0#108#-1#-23%DVTTextDocumentLocation3@51"file://localhost/Developer/Projects/Nese/ALSound.mm0000000000000000^179#6#179#6#18446744073709551615#0#19"Unused Entity Issue--2@31"Unused variable 'square2Length'-364089984#222#107#-1#-3@51"file://localhost/Developer/Projects/Nese/ALSound.mm0000000000000000^178#6#178#6#18446744073709551615#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@51"file://localhost/Developer/Projects/Nese/ALSound.mm0000000000000000^1951"CompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/ALSound.o ALSound.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -F/Developer/Projects/Nese -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-fcqvychcghknfmbeqbhssyjytnhp/Nese_Prefix.pch -MMD -MT dependencies -MF /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/ALSound.d -c /Developer/Projects/Nese/ALSound.mm -o /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/ALSound.o36"F343558F-1757-4A15-957D-DA9572833243-
+
+CCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/ALSound.o /Developer/Projects/Nese/ALSound.mm normal x86_64 objective-c++ com.apple.compilers.llvmgcc42
+s337307573.074926
+e337307573.209645
+r1
+xCompileC
+xbuild/Nese.build/Debug/Nese.build/Objects-normal/x86_64/ALSound.o
+x/Developer/Projects/Nese/ALSound.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Compile /Developer/Projects/Nese/ALSound.mm6c4113b5e71ab441^82aa35b5e71ab441^---0#0#0#-19%DVTDocumentLocation2@51"file://localhost/Developer/Projects/Nese/ALSound.mm0000000000000000^1408"CompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/ALSound.o ALSound.mm normal x86_64 objective-c++ com.apple.compilers.llvmgcc42    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-efjvpwvzjamirahfyehmwlwziwmr/Nese_Prefix.pch -c /Developer/Projects/Nese/ALSound.mm -o /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/ALSound.o
+
+CCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/APU.o /Developer/Projects/Nese/APU.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s364089984.284502
+e364089984.429545
+r1
+xCompileC
+xbuild/Nese.build/Debug/Nese.build/Objects-normal/x86_64/APU.o
+x/Developer/Projects/Nese/APU.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Compile /Developer/Projects/Nese/APU.mmeffe488092b3b541^99b9708092b3b541^---0#0#0#-19%DVTDocumentLocation2@47"file://localhost/Developer/Projects/Nese/APU.mm0000000000000000^1931"CompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/APU.o APU.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -F/Developer/Projects/Nese -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-fcqvychcghknfmbeqbhssyjytnhp/Nese_Prefix.pch -MMD -MT dependencies -MF /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/APU.d -c /Developer/Projects/Nese/APU.mm -o /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/APU.o36"E5F1247D-15B9-4C0C-A971-BE02E1146CD9-
+
+CCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/APU.o /Developer/Projects/Nese/APU.mm normal x86_64 objective-c++ com.apple.compilers.llvmgcc42
+s337307384.566889
+e337307384.786991
+r1
+xCompileC
+xbuild/Nese.build/Debug/Nese.build/Objects-normal/x86_64/APU.o
+x/Developer/Projects/Nese/APU.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Compile /Developer/Projects/Nese/APU.mmeb0094f8e61ab441^02bcc9f8e61ab441^---0#0#0#-19%DVTDocumentLocation2@47"file://localhost/Developer/Projects/Nese/APU.mm0000000000000000^1392"CompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/APU.o APU.mm normal x86_64 objective-c++ com.apple.compilers.llvmgcc42    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-efjvpwvzjamirahfyehmwlwziwmr/Nese_Prefix.pch -c /Developer/Projects/Nese/APU.mm -o /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/APU.o
+
+CCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/CPU.o /Developer/Projects/Nese/CPU.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s364089984.128671
+e364089984.350141
+r1
+xCompileC
+xbuild/Nese.build/Debug/Nese.build/Objects-normal/x86_64/CPU.o
+x/Developer/Projects/Nese/CPU.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Compile /Developer/Projects/Nese/CPU.mmb001218092b3b541^c0035f8092b3b541^---0#0#0#-19%DVTDocumentLocation2@47"file://localhost/Developer/Projects/Nese/CPU.mm0000000000000000^1931"CompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/CPU.o CPU.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -F/Developer/Projects/Nese -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-fcqvychcghknfmbeqbhssyjytnhp/Nese_Prefix.pch -MMD -MT dependencies -MF /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/CPU.d -c /Developer/Projects/Nese/CPU.mm -o /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/CPU.o36"8E3A4C51-F9B0-489F-87B0-041CBA9237D9-
+
+CCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/CPU.o /Developer/Projects/Nese/CPU.mm normal x86_64 objective-c++ com.apple.compilers.llvmgcc42
+s337307384.215789
+e337307384.577622
+r1
+xCompileC
+xbuild/Nese.build/Debug/Nese.build/Objects-normal/x86_64/CPU.o
+x/Developer/Projects/Nese/CPU.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Compile /Developer/Projects/Nese/CPU.mmd95a37f8e61ab441^59e093f8e61ab441^---0#0#0#-19%DVTDocumentLocation2@47"file://localhost/Developer/Projects/Nese/CPU.mm0000000000000000^1392"CompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/CPU.o CPU.mm normal x86_64 objective-c++ com.apple.compilers.llvmgcc42    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-efjvpwvzjamirahfyehmwlwziwmr/Nese_Prefix.pch -c /Developer/Projects/Nese/CPU.mm -o /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/CPU.o
+
+CCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Controller.o /Developer/Projects/Nese/Controller.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s364089984.128567
+e364089984.423586
+r1
+xCompileC
+xbuild/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Controller.o
+x/Developer/Projects/Nese/Controller.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Developer/Projects/Nese/Controller.mm:95:8: warning: 'runModalForTypes:' is deprecated [-Wdeprecated-declarations,8]
+o         if ([ openPanel runModalForTypes:[ NSArray arrayWithObject:@"nes" ] ])
+o               ^
+o/Developer/Projects/Nese/Controller.mm:97:18: warning: 'filename' is deprecated [-Wdeprecated-declarations,8]
+o                 if (!ReadRom([ openPanel filename ]))
+o                                ^
+o/Developer/Projects/Nese/Controller.mm:101:47: warning: 'filename' is deprecated [-Wdeprecated-declarations,8]
+o                         filename = [ [ NSString stringWithString:[ openPanel filename ] ] retain ];
+o                                                                    ^
+o/Developer/Projects/Nese/Controller.mm:410:62: warning: 'filename' is deprecated [-Wdeprecated-declarations,8]
+o                 NSString* filename = [ [ NSString alloc ] initWithString:[ save filename ] ];
+o                                                                            ^
+o/Developer/Projects/Nese/Controller.mm:438:62: warning: 'filename' is deprecated [-Wdeprecated-declarations,8]
+o                 NSString* filename = [ [ NSString alloc ] initWithString:[ save filename ] ];
+o                                                                            ^
+o5 warnings generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Compile /Developer/Projects/Nese/Controller.mm37fe208092b3b541^a4716c8092b3b541^-1286"/Developer/Projects/Nese/Controller.mm:95:8: warning: 'runModalForTypes:' is deprecated [-Wdeprecated-declarations,8]         if ([ openPanel runModalForTypes:[ NSArray arrayWithObject:@"nes" ] ])               ^/Developer/Projects/Nese/Controller.mm:97:18: warning: 'filename' is deprecated [-Wdeprecated-declarations,8]                 if (!ReadRom([ openPanel filename ]))                                ^/Developer/Projects/Nese/Controller.mm:101:47: warning: 'filename' is deprecated [-Wdeprecated-declarations,8]                         filename = [ [ NSString stringWithString:[ openPanel filename ] ] retain ];                                                                    ^/Developer/Projects/Nese/Controller.mm:410:62: warning: 'filename' is deprecated [-Wdeprecated-declarations,8]                 NSString* filename = [ [ NSString alloc ] initWithString:[ save filename ] ];                                                                            ^/Developer/Projects/Nese/Controller.mm:438:62: warning: 'filename' is deprecated [-Wdeprecated-declarations,8]                 NSString* filename = [ [ NSString alloc ] initWithString:[ save filename ] ];                                                                            ^5 warnings generated.5(21%IDEActivityLogMessage2@33"'runModalForTypes:' is deprecated-364089984#0#118#-1#-23%DVTTextDocumentLocation3@54"file://localhost/Developer/Projects/Nese/Controller.mm0000000000000000^94#7#94#7#18446744073709551615#0#12"Deprecations--2@24"'filename' is deprecated-364089984#215#110#-1#-3@54"file://localhost/Developer/Projects/Nese/Controller.mm0000000000000000^96#17#96#17#18446744073709551615#0#12"Deprecations--2@24"'filename' is deprecated-364089984#414#111#-1#-3@54"file://localhost/Developer/Projects/Nese/Controller.mm0000000000000000^100#46#100#46#18446744073709551615#0#12"Deprecations--2@24"'filename' is deprecated-364089984#696#111#-1#-3@54"file://localhost/Developer/Projects/Nese/Controller.mm0000000000000000^409#61#409#61#18446744073709551615#0#12"Deprecations--2@24"'filename' is deprecated-364089984#980#111#-1#-3@54"file://localhost/Developer/Projects/Nese/Controller.mm0000000000000000^437#61#437#61#18446744073709551615#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@54"file://localhost/Developer/Projects/Nese/Controller.mm0000000000000000^1966"CompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Controller.o Controller.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -F/Developer/Projects/Nese -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-fcqvychcghknfmbeqbhssyjytnhp/Nese_Prefix.pch -MMD -MT dependencies -MF /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Controller.d -c /Developer/Projects/Nese/Controller.mm -o /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Controller.o36"C75CA6B0-A294-4862-A8FE-5435A45B3F0C-
+
+CCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Controller.o /Developer/Projects/Nese/Controller.mm normal x86_64 objective-c++ com.apple.compilers.llvmgcc42
+s337307384.213278
+e337307384.764607
+r1
+xCompileC
+xbuild/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Controller.o
+x/Developer/Projects/Nese/Controller.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+o/Developer/Projects/Nese/Controller.mm: In function 'void -[Controller open:](Controller*, objc_selector*, objc_object*)':
+o/Developer/Projects/Nese/Controller.mm:95: warning: 'runModalForTypes:' is deprecated (declared at /Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h:66)
+o/Developer/Projects/Nese/Controller.mm:97: warning: 'filename' is deprecated (declared at /Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:276)
+o/Developer/Projects/Nese/Controller.mm:101: warning: 'filename' is deprecated (declared at /Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:276)
+o/Developer/Projects/Nese/Controller.mm: In function 'void -[Controller saveState:](Controller*, objc_selector*, objc_object*)':
+o/Developer/Projects/Nese/Controller.mm:410: warning: 'filename' is deprecated (declared at /Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:276)
+o/Developer/Projects/Nese/Controller.mm: In function 'void -[Controller loadState:](Controller*, objc_selector*, objc_object*)':
+o/Developer/Projects/Nese/Controller.mm:438: warning: 'filename' is deprecated (declared at /Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:276)
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Compile /Developer/Projects/Nese/Controller.mm3f5737f8e61ab441^f914c4f8e61ab441^-1345"/Developer/Projects/Nese/Controller.mm: In function 'void -[Controller open:](Controller*, objc_selector*, objc_object*)':/Developer/Projects/Nese/Controller.mm:95: warning: 'runModalForTypes:' is deprecated (declared at /Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h:66)/Developer/Projects/Nese/Controller.mm:97: warning: 'filename' is deprecated (declared at /Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:276)/Developer/Projects/Nese/Controller.mm:101: warning: 'filename' is deprecated (declared at /Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:276)/Developer/Projects/Nese/Controller.mm: In function 'void -[Controller saveState:](Controller*, objc_selector*, objc_object*)':/Developer/Projects/Nese/Controller.mm:410: warning: 'filename' is deprecated (declared at /Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:276)/Developer/Projects/Nese/Controller.mm: In function 'void -[Controller loadState:](Controller*, objc_selector*, objc_object*)':/Developer/Projects/Nese/Controller.mm:438: warning: 'filename' is deprecated (declared at /Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:276)5(21%IDEActivityLogMessage2@146"'runModalForTypes:' is deprecated (declared at /Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h:66)-337307384#123#199#-1#-23%DVTTextDocumentLocation3@54"file://localhost/Developer/Projects/Nese/Controller.mm0000000000000000^94#18446744073709551615#94#18446744073709551615#18446744073709551615#0#33"'*' is deprecated (declared at *)--2@138"'filename' is deprecated (declared at /Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:276)-337307384#322#191#-1#-3@54"file://localhost/Developer/Projects/Nese/Controller.mm0000000000000000^96#18446744073709551615#96#18446744073709551615#18446744073709551615#0#33"'*' is deprecated (declared at *)--2@138"'filename' is deprecated (declared at /Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:276)-337307384#513#192#-1#-3@54"file://localhost/Developer/Projects/Nese/Controller.mm0000000000000000^100#18446744073709551615#100#18446744073709551615#18446744073709551615#0#33"'*' is deprecated (declared at *)--2@138"'filename' is deprecated (declared at /Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:276)-337307384#833#192#-1#-3@54"file://localhost/Developer/Projects/Nese/Controller.mm0000000000000000^409#18446744073709551615#409#18446744073709551615#18446744073709551615#0#33"'*' is deprecated (declared at *)--2@138"'filename' is deprecated (declared at /Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:276)-337307384#1153#192#-1#-3@54"file://localhost/Developer/Projects/Nese/Controller.mm0000000000000000^437#18446744073709551615#437#18446744073709551615#18446744073709551615#0#33"'*' is deprecated (declared at *)--0#0#0#-19%DVTDocumentLocation4@54"file://localhost/Developer/Projects/Nese/Controller.mm0000000000000000^1420"CompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Controller.o Controller.mm normal x86_64 objective-c++ com.apple.compilers.llvmgcc42    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-efjvpwvzjamirahfyehmwlwziwmr/Nese_Prefix.pch -c /Developer/Projects/Nese/Controller.mm -o /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Controller.o
+
+CCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/GLString.o /Developer/Projects/Nese/GLString.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s362955425.443419
+e362955426.698438
+r1
+xCompileC
+xbuild/Nese.build/Debug/Nese.build/Objects-normal/x86_64/GLString.o
+x/Developer/Projects/Nese/GLString.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Developer/Projects/Nese/GLString.m:208:14:{208:6-208:39}: warning: using the result of an assignment as a condition without parentheses [-Wparentheses,3]
+o         if (cgl_ctx = CGLGetCurrentContext ()) { // if we successfully retrieve a current context (required)
+o             ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+o/Developer/Projects/Nese/GLString.m:208:14: note: place parentheses around the assignment to silence this warning [3]
+o         if (cgl_ctx = CGLGetCurrentContext ()) { // if we successfully retrieve a current context (required)
+o                     ^
+o             (                                )
+ofix-it:"/Developer/Projects/Nese/GLString.m":{208:6-208:6}:"("
+ofix-it:"/Developer/Projects/Nese/GLString.m":{208:39-208:39}:")"
+o/Developer/Projects/Nese/GLString.m:208:14: note: use '==' to turn this assignment into an equality comparison [3]
+o         if (cgl_ctx = CGLGetCurrentContext ()) { // if we successfully retrieve a current context (required)
+o                     ^
+o                     ==
+ofix-it:"/Developer/Projects/Nese/GLString.m":{208:14-208:15}:"=="
+o1 warning generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Compile /Developer/Projects/Nese/GLString.m969671a142a2b541^e2cdb2a242a2b541^-1098"/Developer/Projects/Nese/GLString.m:208:14:{208:6-208:39}: warning: using the result of an assignment as a condition without parentheses [-Wparentheses,3]         if (cgl_ctx = CGLGetCurrentContext ()) { // if we successfully retrieve a current context (required)             ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~/Developer/Projects/Nese/GLString.m:208:14: note: place parentheses around the assignment to silence this warning [3]         if (cgl_ctx = CGLGetCurrentContext ()) { // if we successfully retrieve a current context (required)                     ^             (                                )fix-it:"/Developer/Projects/Nese/GLString.m":{208:6-208:6}:"("fix-it:"/Developer/Projects/Nese/GLString.m":{208:39-208:39}:")"/Developer/Projects/Nese/GLString.m:208:14: note: use '==' to turn this assignment into an equality comparison [3]         if (cgl_ctx = CGLGetCurrentContext ()) { // if we successfully retrieve a current context (required)                     ^                     ==fix-it:"/Developer/Projects/Nese/GLString.m":{208:14-208:15}:"=="1 warning generated.1(21%IDEActivityLogMessage2@68"Using the result of an assignment as a condition without parentheses-362955426#0#155#5(2@63"Place parentheses around the assignment to silence this warning-362955426#312#118#-0#-23%DVTTextDocumentLocation3@51"file://localhost/Developer/Projects/Nese/GLString.m0000000000000000^207#13#207#13#18446744073709551615#0#14"Semantic Issue--26%IDEActivityLogFixItMessage4@22"Fix-It: replace with (-362955426#611#63#-0#23"com.apple.dt.IDE.fix-it3@51"file://localhost/Developer/Projects/Nese/GLString.m0000000000000000^207#5#207#5#18446744073709551615#0#---1"(4@22"Fix-It: replace with )-362955426#674#65#-0#23"com.apple.dt.IDE.fix-it3@51"file://localhost/Developer/Projects/Nese/GLString.m0000000000000000^207#38#207#38#18446744073709551615#0#---1")2@60"Use '==' to turn this assignment into an equality comparison-362955426#739#115#-0#-3@51"file://localhost/Developer/Projects/Nese/GLString.m0000000000000000^207#13#207#13#18446744073709551615#0#14"Semantic Issue--4@23"Fix-It: replace with ==-362955426#1011#66#-0#23"com.apple.dt.IDE.fix-it3@51"file://localhost/Developer/Projects/Nese/GLString.m0000000000000000^207#13#207#14#18446744073709551615#0#---2"==1#-3@51"file://localhost/Developer/Projects/Nese/GLString.m0000000000000000^207#13#207#13#18446744073709551615#0#14"Semantic Issue1(3@51"file://localhost/Developer/Projects/Nese/GLString.m0000000000000000^207#5#207#38#18446744073709551615#0#-0#0#0#-19%DVTDocumentLocation5@51"file://localhost/Developer/Projects/Nese/GLString.m0000000000000000^1901"CompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/GLString.o GLString.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -F/Developer/Projects/Nese -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-cloqgxswjtqccjdtnquvdphfwfrt/Nese_Prefix.pch -MMD -MT dependencies -MF /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/GLString.d -c /Developer/Projects/Nese/GLString.m -o /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/GLString.o36"A7AF707A-714C-4E1E-AD51-73E74539A03C-
+
+CCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/GLString.o /Developer/Projects/Nese/GLString.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s337307383.777757
+e337307384.076671
+r1
+xCompileC
+xbuild/Nese.build/Debug/Nese.build/Objects-normal/x86_64/GLString.o
+x/Developer/Projects/Nese/GLString.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Compile /Developer/Projects/Nese/GLString.mc30dc8f7e61ab441^62a013f8e61ab441^---0#0#0#-19%DVTDocumentLocation2@51"file://localhost/Developer/Projects/Nese/GLString.m0000000000000000^1389"CompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/GLString.o GLString.m normal x86_64 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-dsyahfczwdyxbyawrgpxhvdyjubg/Nese_Prefix.pch -c /Developer/Projects/Nese/GLString.m -o /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/GLString.o
+
+CCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/GLView.o /Developer/Projects/Nese/GLView.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s364089984.128600
+e364089984.366181
+r1
+xCompileC
+xbuild/Nese.build/Debug/Nese.build/Objects-normal/x86_64/GLView.o
+x/Developer/Projects/Nese/GLView.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Compile /Developer/Projects/Nese/GLView.mme3fd208092b3b541^740d5f8092b3b541^---0#0#0#-19%DVTDocumentLocation2@50"file://localhost/Developer/Projects/Nese/GLView.mm0000000000000000^1946"CompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/GLView.o GLView.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -F/Developer/Projects/Nese -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-fcqvychcghknfmbeqbhssyjytnhp/Nese_Prefix.pch -MMD -MT dependencies -MF /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/GLView.d -c /Developer/Projects/Nese/GLView.mm -o /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/GLView.o36"3BBD3285-E229-48E0-8559-B1F875F92EC1-
+
+CCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/GLView.o /Developer/Projects/Nese/GLView.mm normal x86_64 objective-c++ com.apple.compilers.llvmgcc42
+s337307384.213514
+e337307384.625364
+r1
+xCompileC
+xbuild/Nese.build/Debug/Nese.build/Objects-normal/x86_64/GLView.o
+x/Developer/Projects/Nese/GLView.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Compile /Developer/Projects/Nese/GLView.mmf84f37f8e61ab441^76fc9ff8e61ab441^---0#0#0#-19%DVTDocumentLocation2@50"file://localhost/Developer/Projects/Nese/GLView.mm0000000000000000^1404"CompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/GLView.o GLView.mm normal x86_64 objective-c++ com.apple.compilers.llvmgcc42    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-efjvpwvzjamirahfyehmwlwziwmr/Nese_Prefix.pch -c /Developer/Projects/Nese/GLView.mm -o /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/GLView.o
+
+CCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Mappers.o /Developer/Projects/Nese/Mappers.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s364089984.269254
+e364089984.440119
+r1
+xCompileC
+xbuild/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Mappers.o
+x/Developer/Projects/Nese/Mappers.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Compile /Developer/Projects/Nese/Mappers.mme410458092b3b541^707c718092b3b541^---0#0#0#-19%DVTDocumentLocation2@51"file://localhost/Developer/Projects/Nese/Mappers.mm0000000000000000^1951"CompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Mappers.o Mappers.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -F/Developer/Projects/Nese -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-fcqvychcghknfmbeqbhssyjytnhp/Nese_Prefix.pch -MMD -MT dependencies -MF /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Mappers.d -c /Developer/Projects/Nese/Mappers.mm -o /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Mappers.o36"0583B6B7-19ED-4B93-9F46-3B5FF98157B8-
+
+CCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Mappers.o /Developer/Projects/Nese/Mappers.mm normal x86_64 objective-c++ com.apple.compilers.llvmgcc42
+s337307384.546571
+e337307384.820386
+r1
+xCompileC
+xbuild/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Mappers.o
+x/Developer/Projects/Nese/Mappers.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Compile /Developer/Projects/Nese/Mappers.mm35078cf8e61ab441^4b04d2f8e61ab441^---0#0#0#-19%DVTDocumentLocation2@51"file://localhost/Developer/Projects/Nese/Mappers.mm0000000000000000^1408"CompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Mappers.o Mappers.mm normal x86_64 objective-c++ com.apple.compilers.llvmgcc42    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-efjvpwvzjamirahfyehmwlwziwmr/Nese_Prefix.pch -c /Developer/Projects/Nese/Mappers.mm -o /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Mappers.o
+
+CCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Opcodes.o /Developer/Projects/Nese/Opcodes.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s364090178.570568
+e364090179.164974
+r0
+xCompileC
+xbuild/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Opcodes.o
+x/Developer/Projects/Nese/Opcodes.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Developer/Projects/Nese/Opcodes.mm:941:23:{941:15-941:23}: error: called object type 'NSString *' is not a function or function pointer [3]
+o         ADC(ReadData(Absolute(&pc)));
+o                      ~~~~~~~~^
+o/Developer/Projects/Nese/Opcodes.mm:946:27:{946:15-946:27}: error: called object type 'NSString *' is not a function or function pointer [3]
+o         ADC(ReadData(AbsoluteLong(&pc)));
+o                      ~~~~~~~~~~~~^
+o/Developer/Projects/Nese/Opcodes.mm:951:15: error: use of undeclared identifier 'Direct' [3]
+o         ADC(ReadData(Direct(&pc)));
+o                      ^
+o/Developer/Projects/Nese/Opcodes.mm:956:15: error: use of undeclared identifier 'DirectIndirect' [3]
+o         ADC(ReadData(DirectIndirect(&pc)));
+o                      ^
+o/Developer/Projects/Nese/Opcodes.mm:961:33:{961:15-961:33}: error: called object type 'NSString *' is not a function or function pointer [3]
+o         ADC(ReadData(DirectIndirectLong(&pc)));
+o                      ~~~~~~~~~~~~~~~~~~^
+o/Developer/Projects/Nese/Opcodes.mm:966:15: error: use of undeclared identifier 'AbsoluteIndexed' [3]
+o         ADC(ReadData(AbsoluteIndexed(&pc, X)));
+o                      ^
+o/Developer/Projects/Nese/Opcodes.mm:971:35:{971:15-971:35}: error: called object type 'NSString *' is not a function or function pointer [3]
+o         ADC(ReadData(AbsoluteLongIndexedX(&pc)));
+o                      ~~~~~~~~~~~~~~~~~~~~^
+o/Developer/Projects/Nese/Opcodes.mm:976:15: error: use of undeclared identifier 'AbsoluteIndexed' [3]
+o         ADC(ReadData(AbsoluteIndexed(&pc, Y)));
+o                      ^
+o/Developer/Projects/Nese/Opcodes.mm:981:15: error: use of undeclared identifier 'DirectIndexedX' [3]
+o         ADC(ReadData(DirectIndexedX(&pc)));
+o                      ^
+o/Developer/Projects/Nese/Opcodes.mm:986:15: error: use of undeclared identifier 'DirectIndexedIndirectX' [3]
+o         ADC(ReadData(DirectIndexedIndirectX(&pc)));
+o                      ^
+o/Developer/Projects/Nese/Opcodes.mm:991:23:{991:15-991:23}: error: called object type 'NSString *' is not a function or function pointer [3]
+o         ADC(ReadData(Absolute(&pc)));
+o                      ~~~~~~~~^
+o/Developer/Projects/Nese/Opcodes.mm:996:15: error: use of undeclared identifier 'DirectIndirectIndexedLongY' [3]
+o         ADC(ReadData(DirectIndirectIndexedLongY(&pc)));
+o                      ^
+o/Developer/Projects/Nese/Opcodes.mm:1001:28:{1001:15-1001:28}: error: called object type 'NSString *' is not a function or function pointer [3]
+o         ADC(ReadData(StackRelative(&pc)));
+o                      ~~~~~~~~~~~~~^
+o/Developer/Projects/Nese/Opcodes.mm:1006:15: error: use of undeclared identifier 'StackRelativeIndirectIndexedY' [3]
+o         ADC(ReadData(StackRelativeIndirectIndexedY(&pc)));
+o                      ^
+o/Developer/Projects/Nese/Opcodes.mm:1018:23:{1018:15-1018:23}: error: called object type 'NSString *' is not a function or function pointer [3]
+o         AND(ReadData(Absolute(&pc)));
+o                      ~~~~~~~~^
+o/Developer/Projects/Nese/Opcodes.mm:1023:27:{1023:15-1023:27}: error: called object type 'NSString *' is not a function or function pointer [3]
+o         AND(ReadData(AbsoluteLong(&pc)));
+o                      ~~~~~~~~~~~~^
+o/Developer/Projects/Nese/Opcodes.mm:1028:15: error: use of undeclared identifier 'Direct' [3]
+o         AND(ReadData(Direct(&pc)));
+o                      ^
+o/Developer/Projects/Nese/Opcodes.mm:1033:15: error: use of undeclared identifier 'DirectIndirect' [3]
+o         AND(ReadData(DirectIndirect(&pc)));
+o                      ^
+o/Developer/Projects/Nese/Opcodes.mm:1038:33:{1038:15-1038:33}: error: called object type 'NSString *' is not a function or function pointer [3]
+o         AND(ReadData(DirectIndirectLong(&pc)));
+o                      ~~~~~~~~~~~~~~~~~~^
+ofatal error: too many errors emitted, stopping now [-ferror-limit=]
+o20 errors generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Compile /Developer/Projects/Nese/Opcodes.mm1025924293b3b541^2a362a4393b3b541^-3850"/Developer/Projects/Nese/Opcodes.mm:941:23:{941:15-941:23}: error: called object type 'NSString *' is not a function or function pointer [3]         ADC(ReadData(Absolute(&pc)));                      ~~~~~~~~^/Developer/Projects/Nese/Opcodes.mm:946:27:{946:15-946:27}: error: called object type 'NSString *' is not a function or function pointer [3]         ADC(ReadData(AbsoluteLong(&pc)));                      ~~~~~~~~~~~~^/Developer/Projects/Nese/Opcodes.mm:951:15: error: use of undeclared identifier 'Direct' [3]         ADC(ReadData(Direct(&pc)));                      ^/Developer/Projects/Nese/Opcodes.mm:956:15: error: use of undeclared identifier 'DirectIndirect' [3]         ADC(ReadData(DirectIndirect(&pc)));                      ^/Developer/Projects/Nese/Opcodes.mm:961:33:{961:15-961:33}: error: called object type 'NSString *' is not a function or function pointer [3]         ADC(ReadData(DirectIndirectLong(&pc)));                      ~~~~~~~~~~~~~~~~~~^/Developer/Projects/Nese/Opcodes.mm:966:15: error: use of undeclared identifier 'AbsoluteIndexed' [3]         ADC(ReadData(AbsoluteIndexed(&pc, X)));                      ^/Developer/Projects/Nese/Opcodes.mm:971:35:{971:15-971:35}: error: called object type 'NSString *' is not a function or function pointer [3]         ADC(ReadData(AbsoluteLongIndexedX(&pc)));                      ~~~~~~~~~~~~~~~~~~~~^/Developer/Projects/Nese/Opcodes.mm:976:15: error: use of undeclared identifier 'AbsoluteIndexed' [3]         ADC(ReadData(AbsoluteIndexed(&pc, Y)));                      ^/Developer/Projects/Nese/Opcodes.mm:981:15: error: use of undeclared identifier 'DirectIndexedX' [3]         ADC(ReadData(DirectIndexedX(&pc)));                      ^/Developer/Projects/Nese/Opcodes.mm:986:15: error: use of undeclared identifier 'DirectIndexedIndirectX' [3]         ADC(ReadData(DirectIndexedIndirectX(&pc)));                      ^/Developer/Projects/Nese/Opcodes.mm:991:23:{991:15-991:23}: error: called object type 'NSString *' is not a function or function pointer [3]         ADC(ReadData(Absolute(&pc)));                      ~~~~~~~~^/Developer/Projects/Nese/Opcodes.mm:996:15: error: use of undeclared identifier 'DirectIndirectIndexedLongY' [3]         ADC(ReadData(DirectIndirectIndexedLongY(&pc)));                      ^/Developer/Projects/Nese/Opcodes.mm:1001:28:{1001:15-1001:28}: error: called object type 'NSString *' is not a function or function pointer [3]         ADC(ReadData(StackRelative(&pc)));                      ~~~~~~~~~~~~~^/Developer/Projects/Nese/Opcodes.mm:1006:15: error: use of undeclared identifier 'StackRelativeIndirectIndexedY' [3]         ADC(ReadData(StackRelativeIndirectIndexedY(&pc)));                      ^/Developer/Projects/Nese/Opcodes.mm:1018:23:{1018:15-1018:23}: error: called object type 'NSString *' is not a function or function pointer [3]         AND(ReadData(Absolute(&pc)));                      ~~~~~~~~^/Developer/Projects/Nese/Opcodes.mm:1023:27:{1023:15-1023:27}: error: called object type 'NSString *' is not a function or function pointer [3]         AND(ReadData(AbsoluteLong(&pc)));                      ~~~~~~~~~~~~^/Developer/Projects/Nese/Opcodes.mm:1028:15: error: use of undeclared identifier 'Direct' [3]         AND(ReadData(Direct(&pc)));                      ^/Developer/Projects/Nese/Opcodes.mm:1033:15: error: use of undeclared identifier 'DirectIndirect' [3]         AND(ReadData(DirectIndirect(&pc)));                      ^/Developer/Projects/Nese/Opcodes.mm:1038:33:{1038:15-1038:33}: error: called object type 'NSString *' is not a function or function pointer [3]         AND(ReadData(DirectIndirectLong(&pc)));                      ~~~~~~~~~~~~~~~~~~^fatal error: too many errors emitted, stopping now [-ferror-limit=]20 errors generated.20(21%IDEActivityLogMessage2@69"Called object type 'NSString *' is not a function or function pointer-364090178#0#141#-2#-23%DVTTextDocumentLocation3@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^940#22#940#22#18446744073709551615#0#14"Semantic Issue1(3@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^940#14#940#22#18446744073709551615#0#-2@69"Called object type 'NSString *' is not a function or function pointer-364090178#212#141#-2#-3@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^945#26#945#26#18446744073709551615#0#14"Semantic Issue1(3@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^945#14#945#26#18446744073709551615#0#-2@37"Use of undeclared identifier 'Direct'-364090178#432#93#-2#-3@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^950#14#950#14#18446744073709551615#0#14"Semantic Issue--2@45"Use of undeclared identifier 'DirectIndirect'-364090178#586#101#-2#-3@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^955#14#955#14#18446744073709551615#0#14"Semantic Issue--2@69"Called object type 'NSString *' is not a function or function pointer-364090178#756#141#-2#-3@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^960#32#960#32#18446744073709551615#0#14"Semantic Issue1(3@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^960#14#960#32#18446744073709551615#0#-2@46"Use of undeclared identifier 'AbsoluteIndexed'-364090178#988#102#-2#-3@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^965#14#965#14#18446744073709551615#0#14"Semantic Issue--2@69"Called object type 'NSString *' is not a function or function pointer-364090178#1163#141#-2#-3@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^970#34#970#34#18446744073709551615#0#14"Semantic Issue1(3@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^970#14#970#34#18446744073709551615#0#-2@46"Use of undeclared identifier 'AbsoluteIndexed'-364090178#1399#102#-2#-3@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^975#14#975#14#18446744073709551615#0#14"Semantic Issue--2@45"Use of undeclared identifier 'DirectIndexedX'-364090178#1574#101#-2#-3@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^980#14#980#14#18446744073709551615#0#14"Semantic Issue--2@53"Use of undeclared identifier 'DirectIndexedIndirectX'-364090178#1744#109#-2#-3@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^985#14#985#14#18446744073709551615#0#14"Semantic Issue--2@69"Called object type 'NSString *' is not a function or function pointer-364090178#1930#141#-2#-3@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^990#22#990#22#18446744073709551615#0#14"Semantic Issue1(3@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^990#14#990#22#18446744073709551615#0#-2@57"Use of undeclared identifier 'DirectIndirectIndexedLongY'-364090179#2142#113#-2#-3@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^995#14#995#14#18446744073709551615#0#14"Semantic Issue--2@69"Called object type 'NSString *' is not a function or function pointer-364090179#2336#144#-2#-3@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^1000#27#1000#27#18446744073709551615#0#14"Semantic Issue1(3@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^1000#14#1000#27#18446744073709551615#0#-2@60"Use of undeclared identifier 'StackRelativeIndirectIndexedY'-364090179#2561#117#-2#-3@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^1005#14#1005#14#18446744073709551615#0#14"Semantic Issue--2@69"Called object type 'NSString *' is not a function or function pointer-364090179#2762#144#-2#-3@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^1017#22#1017#22#18446744073709551615#0#14"Semantic Issue1(3@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^1017#14#1017#22#18446744073709551615#0#-2@69"Called object type 'NSString *' is not a function or function pointer-364090179#2977#144#-2#-3@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^1022#26#1022#26#18446744073709551615#0#14"Semantic Issue1(3@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^1022#14#1022#26#18446744073709551615#0#-2@37"Use of undeclared identifier 'Direct'-364090179#3200#94#-2#-3@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^1027#14#1027#14#18446744073709551615#0#14"Semantic Issue--2@45"Use of undeclared identifier 'DirectIndirect'-364090179#3355#102#-2#-3@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^1032#14#1032#14#18446744073709551615#0#14"Semantic Issue--2@69"Called object type 'NSString *' is not a function or function pointer-364090179#3526#144#-2#-3@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^1037#32#1037#32#18446744073709551615#0#14"Semantic Issue1(3@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^1037#14#1037#32#18446744073709551615#0#-2@37"Too many errors emitted, stopping now-364090179#3761#68#-2#--20"Clang LLVM 1.0 Error--0#0#0#-19%DVTDocumentLocation4@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^1951"CompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Opcodes.o Opcodes.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -F/Developer/Projects/Nese -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-fcqvychcghknfmbeqbhssyjytnhp/Nese_Prefix.pch -MMD -MT dependencies -MF /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Opcodes.d -c /Developer/Projects/Nese/Opcodes.mm -o /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Opcodes.o36"B83215C9-08A5-4699-A9E9-E52D2625C955-
+
+CCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Opcodes.o /Developer/Projects/Nese/Opcodes.mm normal x86_64 objective-c++ com.apple.compilers.llvmgcc42
+s337307384.215803
+e337307384.740073
+r1
+xCompileC
+xbuild/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Opcodes.o
+x/Developer/Projects/Nese/Opcodes.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Compile /Developer/Projects/Nese/Opcodes.mme35437f8e61ab441^2975bdf8e61ab441^---0#0#0#-19%DVTDocumentLocation2@51"file://localhost/Developer/Projects/Nese/Opcodes.mm0000000000000000^1408"CompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Opcodes.o Opcodes.mm normal x86_64 objective-c++ com.apple.compilers.llvmgcc42    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-efjvpwvzjamirahfyehmwlwziwmr/Nese_Prefix.pch -c /Developer/Projects/Nese/Opcodes.mm -o /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Opcodes.o
+
+CCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/PPU.o /Developer/Projects/Nese/PPU.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s364089984.129029
+e364089984.400600
+r1
+xCompileC
+xbuild/Nese.build/Debug/Nese.build/Objects-normal/x86_64/PPU.o
+x/Developer/Projects/Nese/PPU.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Developer/Projects/Nese/PPU.mm:69:11: warning: enumeration values 'NONE' and 'FOUR' not handled in switch [-Wswitch-enum,3]
+o                 switch (mirroring)
+o                         ^
+o/Developer/Projects/Nese/PPU.mm:86:11: warning: enumeration values 'NONE' and 'FOUR' not handled in switch [-Wswitch-enum,3]
+o                 switch (mirroring)
+o                         ^
+o/Developer/Projects/Nese/PPU.mm:103:11: warning: enumeration values 'NONE' and 'FOUR' not handled in switch [-Wswitch-enum,3]
+o                 switch (mirroring)
+o                         ^
+o/Developer/Projects/Nese/PPU.mm:120:11: warning: enumeration values 'NONE' and 'FOUR' not handled in switch [-Wswitch-enum,3]
+o                 switch (mirroring)
+o                         ^
+o4 warnings generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Compile /Developer/Projects/Nese/PPU.mm111a218092b3b541^438d668092b3b541^-776"/Developer/Projects/Nese/PPU.mm:69:11: warning: enumeration values 'NONE' and 'FOUR' not handled in switch [-Wswitch-enum,3]                 switch (mirroring)                         ^/Developer/Projects/Nese/PPU.mm:86:11: warning: enumeration values 'NONE' and 'FOUR' not handled in switch [-Wswitch-enum,3]                 switch (mirroring)                         ^/Developer/Projects/Nese/PPU.mm:103:11: warning: enumeration values 'NONE' and 'FOUR' not handled in switch [-Wswitch-enum,3]                 switch (mirroring)                         ^/Developer/Projects/Nese/PPU.mm:120:11: warning: enumeration values 'NONE' and 'FOUR' not handled in switch [-Wswitch-enum,3]                 switch (mirroring)                         ^4 warnings generated.4(21%IDEActivityLogMessage2@58"Enumeration values 'NONE' and 'FOUR' not handled in switch-364089984#0#125#-1#-23%DVTTextDocumentLocation3@47"file://localhost/Developer/Projects/Nese/PPU.mm0000000000000000^68#10#68#10#18446744073709551615#0#14"Semantic Issue--2@58"Enumeration values 'NONE' and 'FOUR' not handled in switch-364089984#188#125#-1#-3@47"file://localhost/Developer/Projects/Nese/PPU.mm0000000000000000^85#10#85#10#18446744073709551615#0#14"Semantic Issue--2@58"Enumeration values 'NONE' and 'FOUR' not handled in switch-364089984#376#126#-1#-3@47"file://localhost/Developer/Projects/Nese/PPU.mm0000000000000000^102#10#102#10#18446744073709551615#0#14"Semantic Issue--2@58"Enumeration values 'NONE' and 'FOUR' not handled in switch-364089984#565#126#-1#-3@47"file://localhost/Developer/Projects/Nese/PPU.mm0000000000000000^119#10#119#10#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@47"file://localhost/Developer/Projects/Nese/PPU.mm0000000000000000^1931"CompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/PPU.o PPU.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -F/Developer/Projects/Nese -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-fcqvychcghknfmbeqbhssyjytnhp/Nese_Prefix.pch -MMD -MT dependencies -MF /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/PPU.d -c /Developer/Projects/Nese/PPU.mm -o /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/PPU.o36"80AC5722-916F-4D7A-BC12-D0EBFC97851C-
+
+CCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/PPU.o /Developer/Projects/Nese/PPU.mm normal x86_64 objective-c++ com.apple.compilers.llvmgcc42
+s337307384.216028
+e337307384.773421
+r1
+xCompileC
+xbuild/Nese.build/Debug/Nese.build/Objects-normal/x86_64/PPU.o
+x/Developer/Projects/Nese/PPU.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Compile /Developer/Projects/Nese/PPU.mmaa6137f8e61ab441^99f2c5f8e61ab441^---0#0#0#-19%DVTDocumentLocation2@47"file://localhost/Developer/Projects/Nese/PPU.mm0000000000000000^1392"CompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/PPU.o PPU.mm normal x86_64 objective-c++ com.apple.compilers.llvmgcc42    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-efjvpwvzjamirahfyehmwlwziwmr/Nese_Prefix.pch -c /Developer/Projects/Nese/PPU.mm -o /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/PPU.o
+
+CCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Pad.o /Developer/Projects/Nese/Pad.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s364089984.128651
+e364089984.281673
+r1
+xCompileC
+xbuild/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Pad.o
+x/Developer/Projects/Nese/Pad.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Compile /Developer/Projects/Nese/Pad.mm97ff208092b3b541^b5535b8092b3b541^---0#0#0#-19%DVTDocumentLocation2@47"file://localhost/Developer/Projects/Nese/Pad.mm0000000000000000^1931"CompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Pad.o Pad.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -F/Developer/Projects/Nese -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-fcqvychcghknfmbeqbhssyjytnhp/Nese_Prefix.pch -MMD -MT dependencies -MF /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Pad.d -c /Developer/Projects/Nese/Pad.mm -o /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Pad.o36"3BAE26F4-78C9-4F09-92C3-63D61B47FEBE-
+
+CCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Pad.o /Developer/Projects/Nese/Pad.mm normal x86_64 objective-c++ com.apple.compilers.llvmgcc42
+s337307384.214138
+e337307384.564041
+r1
+xCompileC
+xbuild/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Pad.o
+x/Developer/Projects/Nese/Pad.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Compile /Developer/Projects/Nese/Pad.mma35737f8e61ab441^026490f8e61ab441^---0#0#0#-19%DVTDocumentLocation2@47"file://localhost/Developer/Projects/Nese/Pad.mm0000000000000000^1392"CompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Pad.o Pad.mm normal x86_64 objective-c++ com.apple.compilers.llvmgcc42    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-efjvpwvzjamirahfyehmwlwziwmr/Nese_Prefix.pch -c /Developer/Projects/Nese/Pad.mm -o /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Pad.o
+
+CCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Rom.o /Developer/Projects/Nese/Rom.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s364089984.130886
+e364089984.349884
+r1
+xCompileC
+xbuild/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Rom.o
+x/Developer/Projects/Nese/Rom.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Compile /Developer/Projects/Nese/Rom.mm8692218092b3b541^bef85e8092b3b541^---0#0#0#-19%DVTDocumentLocation2@47"file://localhost/Developer/Projects/Nese/Rom.mm0000000000000000^1931"CompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Rom.o Rom.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -F/Developer/Projects/Nese -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-fcqvychcghknfmbeqbhssyjytnhp/Nese_Prefix.pch -MMD -MT dependencies -MF /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Rom.d -c /Developer/Projects/Nese/Rom.mm -o /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Rom.o36"4E2E55F9-923C-4B42-900D-15B2F2533BC5-
+
+CCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Rom.o /Developer/Projects/Nese/Rom.mm normal x86_64 objective-c++ com.apple.compilers.llvmgcc42
+s337307384.373052
+e337307384.617157
+r1
+xCompileC
+xbuild/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Rom.o
+x/Developer/Projects/Nese/Rom.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Compile /Developer/Projects/Nese/Rom.mm48a65ff8e61ab441^e2049ef8e61ab441^---0#0#0#-19%DVTDocumentLocation2@47"file://localhost/Developer/Projects/Nese/Rom.mm0000000000000000^1392"CompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Rom.o Rom.mm normal x86_64 objective-c++ com.apple.compilers.llvmgcc42    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-efjvpwvzjamirahfyehmwlwziwmr/Nese_Prefix.pch -c /Developer/Projects/Nese/Rom.mm -o /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Rom.o
+
+CCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/TableWindow.o /Developer/Projects/Nese/TableWindow.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s362955426.890841
+e362955426.931587
+r1
+xCompileC
+xbuild/Nese.build/Debug/Nese.build/Objects-normal/x86_64/TableWindow.o
+x/Developer/Projects/Nese/TableWindow.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Compile /Developer/Projects/Nese/TableWindow.mmea23e4a242a2b541^3602f1a242a2b541^---0#0#0#-19%DVTDocumentLocation2@55"file://localhost/Developer/Projects/Nese/TableWindow.mm0000000000000000^1971"CompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/TableWindow.o TableWindow.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -F/Developer/Projects/Nese -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-fcqvychcghknfmbeqbhssyjytnhp/Nese_Prefix.pch -MMD -MT dependencies -MF /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/TableWindow.d -c /Developer/Projects/Nese/TableWindow.mm -o /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/TableWindow.o36"D31F443D-366F-49D7-916E-ECF52A7899E0-
+
+CCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/TableWindow.o /Developer/Projects/Nese/TableWindow.mm normal x86_64 objective-c++ com.apple.compilers.llvmgcc42
+s337307384.216046
+e337307384.365132
+r1
+xCompileC
+xbuild/Nese.build/Debug/Nese.build/Objects-normal/x86_64/TableWindow.o
+x/Developer/Projects/Nese/TableWindow.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Compile /Developer/Projects/Nese/TableWindow.mme09e37f8e61ab441^2d785df8e61ab441^---0#0#0#-19%DVTDocumentLocation2@55"file://localhost/Developer/Projects/Nese/TableWindow.mm0000000000000000^1424"CompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/TableWindow.o TableWindow.mm normal x86_64 objective-c++ com.apple.compilers.llvmgcc42    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-efjvpwvzjamirahfyehmwlwziwmr/Nese_Prefix.pch -c /Developer/Projects/Nese/TableWindow.mm -o /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/TableWindow.o
+
+CCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/addr.o /Developer/Projects/Nese/addr.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s364089984.129022
+e364089984.267929
+r1
+xCompileC
+xbuild/Nese.build/Debug/Nese.build/Objects-normal/x86_64/addr.o
+x/Developer/Projects/Nese/addr.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Compile /Developer/Projects/Nese/addr.mm4017218092b3b541^d68d538092b3b541^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Developer/Projects/Nese/addr.mm0000000000000000^1936"CompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/addr.o addr.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -F/Developer/Projects/Nese -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-fcqvychcghknfmbeqbhssyjytnhp/Nese_Prefix.pch -MMD -MT dependencies -MF /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/addr.d -c /Developer/Projects/Nese/addr.mm -o /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/addr.o36"802D0585-A241-4E56-9694-1C84813E4299-
+
+CCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/addr.o /Developer/Projects/Nese/addr.mm normal x86_64 objective-c++ com.apple.compilers.llvmgcc42
+s337307384.216056
+e337307384.545110
+r1
+xCompileC
+xbuild/Nese.build/Debug/Nese.build/Objects-normal/x86_64/addr.o
+x/Developer/Projects/Nese/addr.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Compile /Developer/Projects/Nese/addr.mme59d37f8e61ab441^198e8bf8e61ab441^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Developer/Projects/Nese/addr.mm0000000000000000^1396"CompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/addr.o addr.mm normal x86_64 objective-c++ com.apple.compilers.llvmgcc42    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-efjvpwvzjamirahfyehmwlwziwmr/Nese_Prefix.pch -c /Developer/Projects/Nese/addr.mm -o /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/addr.o
+
+CCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/main.o /Developer/Projects/Nese/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s362955425.443255
+e362955426.602665
+r1
+xCompileC
+xbuild/Nese.build/Debug/Nese.build/Objects-normal/x86_64/main.o
+x/Developer/Projects/Nese/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Compile /Developer/Projects/Nese/main.m329271a142a2b541^52489aa242a2b541^---0#0#0#-19%DVTDocumentLocation2@47"file://localhost/Developer/Projects/Nese/main.m0000000000000000^1881"CompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/main.o main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -F/Developer/Projects/Nese -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-cloqgxswjtqccjdtnquvdphfwfrt/Nese_Prefix.pch -MMD -MT dependencies -MF /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/main.d -c /Developer/Projects/Nese/main.m -o /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/main.o36"021D3DC2-A4F5-4CF9-B7E9-4E1D23860D7F-
+
+CCompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/main.o /Developer/Projects/Nese/main.m normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s337307383.781279
+e337307383.930297
+r1
+xCompileC
+xbuild/Nese.build/Debug/Nese.build/Objects-normal/x86_64/main.o
+x/Developer/Projects/Nese/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Compile /Developer/Projects/Nese/main.m425dc8f7e61ab441^c426eef7e61ab441^---0#0#0#-19%DVTDocumentLocation2@47"file://localhost/Developer/Projects/Nese/main.m0000000000000000^1373"CompileC build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/main.o main.m normal x86_64 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -include /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-dsyahfczwdyxbyawrgpxhvdyjubg/Nese_Prefix.pch -c /Developer/Projects/Nese/main.m -o /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/main.o
+
+CCompileXIB /Developer/Projects/Nese/English.lproj/MainMenu.xib
+s337307266.675107
+e337307266.794815
+r1
+xCompileXIB
+x/Developer/Projects/Nese/English.lproj/MainMenu.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compiling /Developer/Projects/Nese/English.lproj/MainMenu.xib8fe2ac82e61ab441^3678cb82e61ab441^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Developer/Projects/Nese/English.lproj/MainMenu.xib0000000000000000^415"CompileXIB English.lproj/MainMenu.xib    cd /Developer/Projects/Nese    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Projects/Nese/build/Debug/Nese.app/Contents/Resources/English.lproj/MainMenu.nib /Developer/Projects/Nese/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.7.sdk
+
+CCopyStringsFile /Developer/Projects/Nese/build/Debug/Nese.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s337307266.675079
+e337307266.677936
+r1
+xCopyStringsFile
+x/Developer/Projects/Nese/build/Debug/Nese.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy English.lproj/InfoPlist.strings87e0ac82e61ab441^158dad82e61ab441^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Developer/Projects/Nese/English.lproj/InfoPlist.strings0000000000000000^356"CopyStringsFile build/Debug/Nese.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings    cd /Developer/Projects/Nese    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Developer/Projects/Nese/build/Debug/Nese.app/Contents/Resources/English.lproj -- English.lproj/InfoPlist.strings
+
+CLd /Developer/Projects/Nese/build/Debug/Nese.app/Contents/MacOS/Nese normal x86_64
+s362955427.203251
+e362955428.424788
+r1
+xLd
+x/Developer/Projects/Nese/build/Debug/Nese.app/Contents/MacOS/Nese
+xnormal
+xx86_64
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Link /Developer/Projects/Nese/build/Debug/Nese.app/Contents/MacOS/Nesea01534a342a2b541^27c06ca442a2b541^---0#0#0#--599"Ld build/Debug/Nese.app/Contents/MacOS/Nese normal x86_64    cd /Developer/Projects/Nese    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang++ -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.7.sdk -L/Developer/Projects/Nese/build/Debug -F/Developer/Projects/Nese/build/Debug -F/Developer/Projects/Nese -filelist /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Objects-normal/x86_64/Nese.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework OpenGL -framework OpenAL -framework CoreAudio -o /Developer/Projects/Nese/build/Debug/Nese.app/Contents/MacOS/Nese36"54BF9C66-BF54-469E-91BB-F4AF4B33AA7A-
+
+CProcessInfoPlistFile /Developer/Projects/Nese/build/Debug/Nese.app/Contents/Info.plist Nese-Info.plist
+s362955423.106173
+e362955423.183995
+r1
+xProcessInfoPlistFile
+x/Developer/Projects/Nese/build/Debug/Nese.app/Contents/Info.plist
+xNese-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection23"Process Nese-Info.plistb494209f42a2b541^ca6d2f9f42a2b541^---0#0#0#-19%DVTDocumentLocation2@56"file://localhost/Developer/Projects/Nese/Nese-Info.plist0000000000000000^337"ProcessInfoPlistFile build/Debug/Nese.app/Contents/Info.plist Nese-Info.plist    cd /Developer/Projects/Nese    builtin-infoPlistUtility Nese-Info.plist -genpkginfo /Developer/Projects/Nese/build/Debug/Nese.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Developer/Projects/Nese/build/Debug/Nese.app/Contents/Info.plist36"46C26111-C35D-46FD-BF6F-5DA68AA02586-
+
+CProcessPCH /Users/Neil/Library/Developer/Xcode/DerivedData/Nese-gczgyhdaobzdbgabaccievjmmntz/Index/PrecompiledHeaders/Nese_Prefix-apxfsnzvcivhkefaammjojxlfqiv_ast/Nese_Prefix.pch.pth Nese_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/Neil/Library/Developer/Xcode/DerivedData/Nese-gczgyhdaobzdbgabaccievjmmntz/Index/PrecompiledHeaders/Nese_Prefix-cmiqmwnjfgbcsfcciqarwrtmkbcd_ast/Nese_Prefix.pch.pth Nese_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/Neil/Library/Developer/Xcode/DerivedData/Nese-gczgyhdaobzdbgabaccievjmmntz/Index/PrecompiledHeaders/Nese_Prefix-dcvikfbbvicmopebhgkdpivwjbsc_ast/Nese_Prefix.pch.pth Nese_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/Neil/Library/Developer/Xcode/DerivedData/Nese-gczgyhdaobzdbgabaccievjmmntz/Index/PrecompiledHeaders/Nese_Prefix-dgtllxzwhmqiuceethcgjtvgozsx_ast/Nese_Prefix.pch.pth Nese_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/Neil/Library/Developer/Xcode/DerivedData/Nese-gczgyhdaobzdbgabaccievjmmntz/Index/PrecompiledHeaders/Nese_Prefix-fzofxeeyffsvlxdnnrptplaieuwg_ast/Nese_Prefix.pch.pth Nese_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-bgokylaswuuzkaeeegjdasmicbhd/Nese_Prefix.pch.gch Nese_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CProcessPCH /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-cloqgxswjtqccjdtnquvdphfwfrt/Nese_Prefix.pch.pth Nese_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s362955423.202460
+e362955425.435620
+r1
+xProcessPCH
+x/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-cloqgxswjtqccjdtnquvdphfwfrt/Nese_Prefix.pch.pth
+xNese_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Precompile Nese_Prefix.pchfdf4339f42a2b541^2bdf6fa142a2b541^---0#0#0#-19%DVTDocumentLocation2@56"file://localhost/Developer/Projects/Nese/Nese_Prefix.pch0000000000000000^1972"ProcessPCH /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-cloqgxswjtqccjdtnquvdphfwfrt/Nese_Prefix.pch.pth Nese_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -F/Developer/Projects/Nese -c /Developer/Projects/Nese/Nese_Prefix.pch -o /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-cloqgxswjtqccjdtnquvdphfwfrt/Nese_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-cloqgxswjtqccjdtnquvdphfwfrt/Nese_Prefix.pch.d36"FD49730A-41F2-4A74-B1E8-1B76A974EF6F-
+
+CProcessPCH /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-dsyahfczwdyxbyawrgpxhvdyjubg/Nese_Prefix.pch.gch Nese_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s337307382.068730
+e337307383.770801
+r1
+xProcessPCH
+x/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-dsyahfczwdyxbyawrgpxhvdyjubg/Nese_Prefix.pch.gch
+xNese_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Precompile Nese_Prefix.pch00a911f6e61ab441^5853c5f7e61ab441^---0#0#0#-19%DVTDocumentLocation2@56"file://localhost/Developer/Projects/Nese/Nese_Prefix.pch0000000000000000^1399"ProcessPCH /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-dsyahfczwdyxbyawrgpxhvdyjubg/Nese_Prefix.pch.gch Nese_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -c /Developer/Projects/Nese/Nese_Prefix.pch -o /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-dsyahfczwdyxbyawrgpxhvdyjubg/Nese_Prefix.pch.gch
+
+CProcessPCH /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-fstxogjevgferoccftwqnsafilhf/Nese_Prefix.pch.gch Nese_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvmgcc42
+s337307266.803721
+e337307269.342198
+r1
+xProcessPCH
+x/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-fstxogjevgferoccftwqnsafilhf/Nese_Prefix.pch.gch
+xNese_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Precompile Nese_Prefix.pcha1d9cd82e61ab441^d9985785e61ab441^---0#0#0#-19%DVTDocumentLocation2@56"file://localhost/Developer/Projects/Nese/Nese_Prefix.pch0000000000000000^1399"ProcessPCH /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-fstxogjevgferoccftwqnsafilhf/Nese_Prefix.pch.gch Nese_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility=hidden -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -c /Developer/Projects/Nese/Nese_Prefix.pch -o /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-fstxogjevgferoccftwqnsafilhf/Nese_Prefix.pch.gch
+
+CProcessPCH /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-gtnftrwzdfitjwcypomfwlgyxdck/Nese_Prefix.pch.pth Nese_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s345520658.724972
+e345520659.489203
+r1
+xProcessPCH
+x/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-gtnftrwzdfitjwcypomfwlgyxdck/Nese_Prefix.pch.pth
+xNese_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Precompile Nese_Prefix.pch31b1b9123a98b441^683c7d133a98b441^---0#0#0#-19%DVTDocumentLocation2@56"file://localhost/Developer/Projects/Nese/Nese_Prefix.pch0000000000000000^1945"ProcessPCH /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-gtnftrwzdfitjwcypomfwlgyxdck/Nese_Prefix.pch.pth Nese_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -c /Developer/Projects/Nese/Nese_Prefix.pch -o /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-gtnftrwzdfitjwcypomfwlgyxdck/Nese_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-gtnftrwzdfitjwcypomfwlgyxdck/Nese_Prefix.pch.d36"FBC6A954-64AC-4584-A075-E3C779C7C3C7-
+
+CProcessPCH++ /Users/Neil/Library/Developer/Xcode/DerivedData/Nese-gczgyhdaobzdbgabaccievjmmntz/Index/PrecompiledHeaders/Nese_Prefix-cxrnxrxojvtncpcrjxwjpeyqicuy_ast/Nese_Prefix.pch.pth Nese_Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/Neil/Library/Developer/Xcode/DerivedData/Nese-gczgyhdaobzdbgabaccievjmmntz/Index/PrecompiledHeaders/Nese_Prefix-ekqqfdzpwsgdeiduwwwsiroeftxt_ast/Nese_Prefix.pch.pth Nese_Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/Neil/Library/Developer/Xcode/DerivedData/Nese-gczgyhdaobzdbgabaccievjmmntz/Index/PrecompiledHeaders/Nese_Prefix-fvmvfoiwvflwowhkedjcbesghdth_ast/Nese_Prefix.pch.pth Nese_Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/Neil/Library/Developer/Xcode/DerivedData/Nese-gczgyhdaobzdbgabaccievjmmntz/Index/PrecompiledHeaders/Nese_Prefix-hayxpywsvqwckxeszxmdvljbfrdw_ast/Nese_Prefix.pch.pth Nese_Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/Neil/Library/Developer/Xcode/DerivedData/Nese-gczgyhdaobzdbgabaccievjmmntz/Index/PrecompiledHeaders/Nese_Prefix-hgsrjhgvvxgudpbahfsrygsphjch_ast/Nese_Prefix.pch.pth Nese_Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-auroaabvbugmqbbptkazelrdrlkd/Nese_Prefix.pch.gch Nese_Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvmgcc42
+s337307266.803864
+e337307270.475532
+r1
+xProcessPCH++
+x/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-auroaabvbugmqbbptkazelrdrlkd/Nese_Prefix.pch.gch
+xNese_Prefix.pch
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Precompile Nese_Prefix.pchdfdecd82e61ab441^cfbb7986e61ab441^---0#0#0#-19%DVTDocumentLocation2@56"file://localhost/Developer/Projects/Nese/Nese_Prefix.pch0000000000000000^1422"ProcessPCH++ /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-auroaabvbugmqbbptkazelrdrlkd/Nese_Prefix.pch.gch Nese_Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvmgcc42    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c++-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -c /Developer/Projects/Nese/Nese_Prefix.pch -o /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-auroaabvbugmqbbptkazelrdrlkd/Nese_Prefix.pch.gch
+
+CProcessPCH++ /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-bopdxspejdxewefdnftupifuboli/Nese_Prefix.pch.pth Nese_Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s345520658.724967
+e345520659.789108
+r1
+xProcessPCH++
+x/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-bopdxspejdxewefdnftupifuboli/Nese_Prefix.pch.pth
+xNese_Prefix.pch
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Precompile Nese_Prefix.pch1cb2b9123a98b441^d7d930143a98b441^---0#0#0#-19%DVTDocumentLocation2@56"file://localhost/Developer/Projects/Nese/Nese_Prefix.pch0000000000000000^2000"ProcessPCH++ /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-bopdxspejdxewefdnftupifuboli/Nese_Prefix.pch.pth Nese_Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -c /Developer/Projects/Nese/Nese_Prefix.pch -o /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-bopdxspejdxewefdnftupifuboli/Nese_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-bopdxspejdxewefdnftupifuboli/Nese_Prefix.pch.d36"FA020C84-74F4-4186-95A5-840035931812-
+
+CProcessPCH++ /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-efjvpwvzjamirahfyehmwlwziwmr/Nese_Prefix.pch.gch Nese_Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvmgcc42
+s337307382.068735
+e337307384.205911
+r1
+xProcessPCH++
+x/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-efjvpwvzjamirahfyehmwlwziwmr/Nese_Prefix.pch.gch
+xNese_Prefix.pch
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Precompile Nese_Prefix.pch54a911f6e61ab441^35b534f8e61ab441^---0#0#0#-19%DVTDocumentLocation2@56"file://localhost/Developer/Projects/Nese/Nese_Prefix.pch0000000000000000^1422"ProcessPCH++ /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-efjvpwvzjamirahfyehmwlwziwmr/Nese_Prefix.pch.gch Nese_Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvmgcc42    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x objective-c++-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -c /Developer/Projects/Nese/Nese_Prefix.pch -o /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-efjvpwvzjamirahfyehmwlwziwmr/Nese_Prefix.pch.gch
+
+CProcessPCH++ /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-fcqvychcghknfmbeqbhssyjytnhp/Nese_Prefix.pch.pth Nese_Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s362955423.202476
+e362955425.451289
+r1
+xProcessPCH++
+x/var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-fcqvychcghknfmbeqbhssyjytnhp/Nese_Prefix.pch.pth
+xNese_Prefix.pch
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Precompile Nese_Prefix.pch49f3339f42a2b541^338873a142a2b541^---0#0#0#-19%DVTDocumentLocation2@56"file://localhost/Developer/Projects/Nese/Nese_Prefix.pch0000000000000000^2027"ProcessPCH++ /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-fcqvychcghknfmbeqbhssyjytnhp/Nese_Prefix.pch.pth Nese_Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Projects/Nese    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-generated-files.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-own-target-headers.hmap -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-all-target-headers.hmap -iquote /Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/Nese-project-headers.hmap -I/Developer/Projects/Nese/build/Debug/include -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources/x86_64 -I/Developer/Projects/Nese/build/Nese.build/Debug/Nese.build/DerivedSources -F/Developer/Projects/Nese/build/Debug -F/Developer/Projects/Nese -c /Developer/Projects/Nese/Nese_Prefix.pch -o /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-fcqvychcghknfmbeqbhssyjytnhp/Nese_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-fcqvychcghknfmbeqbhssyjytnhp/Nese_Prefix.pch.d36"132F31B3-43B2-40FF-934F-9E6BB5615E46-
+
+CProcessPCH++ /var/folders/4k/36_s64xn2x5bylkdxz1t1y9h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Nese_Prefix-fcxsgqwggbpiggebemztsificzxc/Nese_Prefix.pch.gch Nese_Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvmgcc42
+r0
+
+CTouch /Developer/Projects/Nese/build/Debug/Nese.app
+s362955428.433599
+e362955428.491249
+r1
+xTouch
+x/Developer/Projects/Nese/build/Debug/Nese.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Touch /Developer/Projects/Nese/build/Debug/Nese.appb20e6fa442a2b541^a0c67da442a2b541^---0#0#0#--127"Touch build/Debug/Nese.app    cd /Developer/Projects/Nese    /usr/bin/touch -c /Developer/Projects/Nese/build/Debug/Nese.app36"C996A6E4-CC0A-4DC9-8981-65C3DFFD19E1-
+

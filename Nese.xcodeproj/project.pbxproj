@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		2820A1611845760500D3859D /* ALSound.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2820A1601845760500D3859D /* ALSound.mm */; };
+		2820A1661845761100D3859D /* GLString.m in Sources */ = {isa = PBXBuildFile; fileRef = 2820A1631845761100D3859D /* GLString.m */; };
+		2820A1671845761100D3859D /* GLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2820A1651845761100D3859D /* GLView.mm */; };
+		2820A16A1845761B00D3859D /* Mappers.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2820A1691845761B00D3859D /* Mappers.mm */; };
+		2820A16D1845762300D3859D /* APU.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2820A16C1845762300D3859D /* APU.mm */; };
+		2820A1701845762A00D3859D /* PPU.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2820A16F1845762A00D3859D /* PPU.mm */; };
+		2820A1741845763B00D3859D /* CPU.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2820A1731845763B00D3859D /* CPU.mm */; };
+		2820A1771845764300D3859D /* Opcodes.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2820A1761845764300D3859D /* Opcodes.mm */; };
+		2820A17A1845764B00D3859D /* addr.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2820A1791845764B00D3859D /* addr.mm */; };
+		2820A17E1845765800D3859D /* TableWindow.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2820A17D1845765800D3859D /* TableWindow.mm */; };
+		2820A1811845766100D3859D /* Controller.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2820A1801845766100D3859D /* Controller.mm */; };
+		2820A1841845766800D3859D /* Rom.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2820A1831845766800D3859D /* Rom.mm */; };
+		2820A1871845767100D3859D /* Pad.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2820A1861845767100D3859D /* Pad.mm */; };
+		2864C4891D2B42F500D590EC /* CASound.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2864C4881D2B42F500D590EC /* CASound.mm */; };
+		2864C4931D2B4A7500D590EC /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2864C4921D2B4A7500D590EC /* CoreAudio.framework */; };
+		2864C4951D2B4A7C00D590EC /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2864C4941D2B4A7C00D590EC /* AudioUnit.framework */; };
+		2864C4971D2B4A8500D590EC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2864C4961D2B4A8500D590EC /* AudioToolbox.framework */; };
+		54CC0F991131E97100D38CE4 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54CC0F981131E97100D38CE4 /* OpenGL.framework */; };
+		7E9C428311B73C2000079935 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E9C428211B73C2000079935 /* OpenAL.framework */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* Nese_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nese_Prefix.pch; sourceTree = "<group>"; };
+		2820A15F1845760500D3859D /* ALSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSound.h; sourceTree = "<group>"; };
+		2820A1601845760500D3859D /* ALSound.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ALSound.mm; sourceTree = "<group>"; };
+		2820A1621845761100D3859D /* GLString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLString.h; sourceTree = "<group>"; };
+		2820A1631845761100D3859D /* GLString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLString.m; sourceTree = "<group>"; };
+		2820A1641845761100D3859D /* GLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLView.h; sourceTree = "<group>"; };
+		2820A1651845761100D3859D /* GLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLView.mm; sourceTree = "<group>"; };
+		2820A1681845761B00D3859D /* Mappers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mappers.h; sourceTree = "<group>"; };
+		2820A1691845761B00D3859D /* Mappers.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Mappers.mm; sourceTree = "<group>"; };
+		2820A16B1845762300D3859D /* APU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APU.h; sourceTree = "<group>"; };
+		2820A16C1845762300D3859D /* APU.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = APU.mm; sourceTree = "<group>"; };
+		2820A16E1845762A00D3859D /* PPU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPU.h; sourceTree = "<group>"; };
+		2820A16F1845762A00D3859D /* PPU.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PPU.mm; sourceTree = "<group>"; };
+		2820A1711845763100D3859D /* types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		2820A1721845763B00D3859D /* CPU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPU.h; sourceTree = "<group>"; };
+		2820A1731845763B00D3859D /* CPU.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CPU.mm; sourceTree = "<group>"; };
+		2820A1751845764300D3859D /* Opcodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Opcodes.h; sourceTree = "<group>"; };
+		2820A1761845764300D3859D /* Opcodes.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Opcodes.mm; sourceTree = "<group>"; };
+		2820A1781845764B00D3859D /* addr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addr.h; sourceTree = "<group>"; };
+		2820A1791845764B00D3859D /* addr.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = addr.mm; sourceTree = "<group>"; };
+		2820A17B1845765100D3859D /* OpcFunc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpcFunc.h; sourceTree = "<group>"; };
+		2820A17C1845765800D3859D /* TableWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableWindow.h; sourceTree = "<group>"; };
+		2820A17D1845765800D3859D /* TableWindow.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TableWindow.mm; sourceTree = "<group>"; };
+		2820A17F1845766100D3859D /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		2820A1801845766100D3859D /* Controller.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Controller.mm; sourceTree = "<group>"; };
+		2820A1821845766800D3859D /* Rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rom.h; sourceTree = "<group>"; };
+		2820A1831845766800D3859D /* Rom.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Rom.mm; sourceTree = "<group>"; };
+		2820A1851845767100D3859D /* Pad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pad.h; sourceTree = "<group>"; };
+		2820A1861845767100D3859D /* Pad.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Pad.mm; sourceTree = "<group>"; };
+		2864C4871D2B42F500D590EC /* CASound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CASound.h; sourceTree = "<group>"; };
+		2864C4881D2B42F500D590EC /* CASound.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CASound.mm; sourceTree = "<group>"; };
+		2864C4921D2B4A7500D590EC /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = ../../../../System/Library/Frameworks/CoreAudio.framework; sourceTree = "<group>"; };
+		2864C4941D2B4A7C00D590EC /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = ../../../../System/Library/Frameworks/AudioUnit.framework; sourceTree = "<group>"; };
+		2864C4961D2B4A8500D590EC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = ../../../../System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		54CC0F981131E97100D38CE4 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		7E9C428211B73C2000079935 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* Nese-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Nese-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Nese.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nese.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2864C4951D2B4A7C00D590EC /* AudioUnit.framework in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				54CC0F991131E97100D38CE4 /* OpenGL.framework in Frameworks */,
+				2864C4931D2B4A7500D590EC /* CoreAudio.framework in Frameworks */,
+				7E9C428311B73C2000079935 /* OpenAL.framework in Frameworks */,
+				2864C4971D2B4A8500D590EC /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2864C4961D2B4A8500D590EC /* AudioToolbox.framework */,
+				2864C4941D2B4A7C00D590EC /* AudioUnit.framework */,
+				2864C4921D2B4A7500D590EC /* CoreAudio.framework */,
+				54CC0F981131E97100D38CE4 /* OpenGL.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				7E9C428211B73C2000079935 /* OpenAL.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Nese.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Nese */ = {
+			isa = PBXGroup;
+			children = (
+				54CC0F651131E68900D38CE4 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Nese;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* Nese_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Nese-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54CC0F651131E68900D38CE4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				54CC0F661131E68D00D38CE4 /* Common */,
+				54CC0F671131E69100D38CE4 /* Core */,
+				54CC0F681131E69700D38CE4 /* Plugins */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		54CC0F661131E68D00D38CE4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2820A17C1845765800D3859D /* TableWindow.h */,
+				2820A17D1845765800D3859D /* TableWindow.mm */,
+				2820A17F1845766100D3859D /* Controller.h */,
+				2820A1801845766100D3859D /* Controller.mm */,
+				2820A1821845766800D3859D /* Rom.h */,
+				2820A1831845766800D3859D /* Rom.mm */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		54CC0F671131E69100D38CE4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2820A1711845763100D3859D /* types.h */,
+				54CC0F931131E93200D38CE4 /* CPU */,
+				54CC0FA01131E9B400D38CE4 /* PPU */,
+				54CC0F9F1131E9AA00D38CE4 /* APU */,
+				2820A1681845761B00D3859D /* Mappers.h */,
+				2820A1691845761B00D3859D /* Mappers.mm */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		54CC0F681131E69700D38CE4 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				54CC0F6C1131E6B800D38CE4 /* Video */,
+				54CC0F6B1131E6AB00D38CE4 /* Audio */,
+				54CC0F6A1131E6A300D38CE4 /* Controller */,
+			);
+			name = Plugins;
+			sourceTree = "<group>";
+		};
+		54CC0F6A1131E6A300D38CE4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				54CC0F6F1131E6C400D38CE4 /* Pad */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		54CC0F6B1131E6AB00D38CE4 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				54CC0F6E1131E6C000D38CE4 /* OpenAL */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		54CC0F6C1131E6B800D38CE4 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				54CC0F6D1131E6BC00D38CE4 /* OpenGL */,
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
+		54CC0F6D1131E6BC00D38CE4 /* OpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				2820A1621845761100D3859D /* GLString.h */,
+				2820A1631845761100D3859D /* GLString.m */,
+				2820A1641845761100D3859D /* GLView.h */,
+				2820A1651845761100D3859D /* GLView.mm */,
+			);
+			name = OpenGL;
+			sourceTree = "<group>";
+		};
+		54CC0F6E1131E6C000D38CE4 /* OpenAL */ = {
+			isa = PBXGroup;
+			children = (
+				2820A15F1845760500D3859D /* ALSound.h */,
+				2820A1601845760500D3859D /* ALSound.mm */,
+				2864C4871D2B42F500D590EC /* CASound.h */,
+				2864C4881D2B42F500D590EC /* CASound.mm */,
+			);
+			name = OpenAL;
+			sourceTree = "<group>";
+		};
+		54CC0F6F1131E6C400D38CE4 /* Pad */ = {
+			isa = PBXGroup;
+			children = (
+				2820A1851845767100D3859D /* Pad.h */,
+				2820A1861845767100D3859D /* Pad.mm */,
+			);
+			name = Pad;
+			sourceTree = "<group>";
+		};
+		54CC0F931131E93200D38CE4 /* CPU */ = {
+			isa = PBXGroup;
+			children = (
+				2820A1721845763B00D3859D /* CPU.h */,
+				2820A1731845763B00D3859D /* CPU.mm */,
+				2820A1751845764300D3859D /* Opcodes.h */,
+				2820A1761845764300D3859D /* Opcodes.mm */,
+				2820A1781845764B00D3859D /* addr.h */,
+				2820A1791845764B00D3859D /* addr.mm */,
+				2820A17B1845765100D3859D /* OpcFunc.h */,
+			);
+			name = CPU;
+			sourceTree = "<group>";
+		};
+		54CC0F9F1131E9AA00D38CE4 /* APU */ = {
+			isa = PBXGroup;
+			children = (
+				2820A16B1845762300D3859D /* APU.h */,
+				2820A16C1845762300D3859D /* APU.mm */,
+			);
+			name = APU;
+			sourceTree = "<group>";
+		};
+		54CC0FA01131E9B400D38CE4 /* PPU */ = {
+			isa = PBXGroup;
+			children = (
+				2820A16E1845762A00D3859D /* PPU.h */,
+				2820A16F1845762A00D3859D /* PPU.mm */,
+			);
+			name = PPU;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Nese */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Nese" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nese;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Nese;
+			productReference = 8D1107320486CEB800E47090 /* Nese.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Nese" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Nese */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Nese */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2820A16A1845761B00D3859D /* Mappers.mm in Sources */,
+				2820A1871845767100D3859D /* Pad.mm in Sources */,
+				2820A1771845764300D3859D /* Opcodes.mm in Sources */,
+				2820A1841845766800D3859D /* Rom.mm in Sources */,
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				2820A17E1845765800D3859D /* TableWindow.mm in Sources */,
+				2864C4891D2B42F500D590EC /* CASound.mm in Sources */,
+				2820A1741845763B00D3859D /* CPU.mm in Sources */,
+				2820A1701845762A00D3859D /* PPU.mm in Sources */,
+				2820A16D1845762300D3859D /* APU.mm in Sources */,
+				2820A17A1845764B00D3859D /* addr.mm in Sources */,
+				2820A1611845760500D3859D /* ALSound.mm in Sources */,
+				2820A1671845761100D3859D /* GLView.mm in Sources */,
+				2820A1811845766100D3859D /* Controller.mm in Sources */,
+				2820A1661845761100D3859D /* GLString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Projects/Nese\"",
+					"$(PROJECT_DIR)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Nese_Prefix.pch;
+				INFOPLIST_FILE = "Nese-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Nese;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Projects/Nese\"",
+					"$(PROJECT_DIR)",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Nese_Prefix.pch;
+				INFOPLIST_FILE = "Nese-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Nese;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Nese" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Nese" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
